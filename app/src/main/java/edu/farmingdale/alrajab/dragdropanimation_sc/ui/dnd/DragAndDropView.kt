@@ -1,11 +1,9 @@
 package edu.farmingdale.alrajab.dragdropanimation_sc.ui.dnd
 
-import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.Card
-import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Scaffold
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
@@ -65,12 +63,10 @@ fun DragAndDropContent(
 			}
 		}
 	) {
-		Box(
+		AnimationRocket(
 			Modifier
 				.padding(it)
 				.fillMaxSize()
-		) {
-
-		}
+		)
 	}
 }
