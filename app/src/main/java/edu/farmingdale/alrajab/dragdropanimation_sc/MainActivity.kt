@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<TextView>(R.id.tv1).setOnClickListener{
-            startActivity(Intent(this,DragAndDropViews::class.java))
+            startActivity(Intent(this, DragAndDropViews::class.java))
         }
     }
 }
